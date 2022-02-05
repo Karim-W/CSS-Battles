@@ -1,0 +1,33 @@
+<div class="center">
+    <div style="width:200px;height:200px;border-radius:50%;display:grid;">
+        <div class='first' style="background:#51B5A9;border-radius:100% 0% 0% 0%"></div>
+        <div class='sec' style="background:#FADE8B;border-radius:0% 100%  0% 0%"></div>
+        <div class='first' style="background:#F7F3D7;border-radius:0% 0% 0% 100%  "></div>
+        <div class='sec'></div>
+    </div>
+</div>
+<style>
+    .first {
+        grid-column: 1;
+        width: 100%;
+        height: 100%;
+    }
+
+    .sec {
+        grid-column: 2;
+        width: 100%;
+        height: 100%;
+    }
+
+    .center {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    body {
+        background: #E3516E;
+    }
+</style>
